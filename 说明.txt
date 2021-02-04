@@ -1,1 +1,1 @@
-已配置，连接GitHub远程仓库
+已配置，连接GitHub远程仓库git@github.com:Yexuyao123/yexyjianli202011.git
