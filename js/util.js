@@ -41,4 +41,5 @@ const eleMap = {}
 getEls.forEach(id => {
   eleMap[id] = getElement(id)
 })
+
 export {getInputValue, getElement, addLabel, addClass, removeClass, changeClass, getTagName, eleMap, show, hide }

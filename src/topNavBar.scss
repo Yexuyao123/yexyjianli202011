@@ -4,15 +4,15 @@
   width: 100%;
   box-sizing: border-box;
   transition: all 1.5s;
-  color: #b7b7b7; }
-
+  color: #b7b7b7;
+}
 .sticky {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px 5px 10px 15px;
-  color: #464444;
+  color: rgb(70, 68, 68);
   z-index: 1;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3); }
-
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+}
 .logo {
   float: left;
   padding-top: 4px;
@@ -20,16 +20,17 @@
   font-size: 24px;
   font-weight: bold;
   font-family: "Arial Black";
-  color: inherit; }
-
+  color: inherit;
+}
 .RS {
-  color: #e6686a;
-  margin-right: 6px; }
-
+  color: rgb(230, 104, 106);
+  margin-right: 6px;
+}
 .nav1 {
   float: right;
   padding-top: 7px;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+}
 
 .topNavBar > nav > ul > li > a {
   float: left;
@@ -41,8 +42,8 @@
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
   display: block;
-  cursor: default; }
-
+  cursor: default;
+}
 .nav1 .a .menuTrigger .rightTriangle {
   position: absolute;
   top: 45%;
@@ -52,30 +53,31 @@
   border: solid 5px #b7b7b7;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  border-right-color: transparent; }
-
+  border-right-color: transparent;
+}
 .menu {
   padding: 5px;
-  border-bottom: 1px solid #38424b; }
-
+  border-bottom: 1px solid rgb(56, 66, 75);
+}
 .submenu {
   position: absolute;
   top: 120%;
   left: -80%;
-  background-color: #efefef;
-  color: #121f2a;
+  background-color: rgb(239, 239, 239);
+  color: rgb(18, 31, 42);
   padding: 4px 5px 10px;
   font-size: 16px;
-  border-radius: 2px; }
-
+  border-radius: 2px;
+}
 .topTriangle {
   position: absolute;
   top: -8%;
   left: 40%;
   width: 0px;
   height: 0px;
-  border: solid 5px #efefef;
+  border: solid 5px rgb(239, 239, 239);
   border-top-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
-  margin: auto; }
+  margin: auto;
+}

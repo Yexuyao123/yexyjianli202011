@@ -1,23 +1,23 @@
-@charset "UTF-8";
 .messages {
   max-width: 940px;
-  margin: 60px auto 0; }
-
+  margin: 60px auto 0;
+}
 .messages > h2 {
-  margin-bottom: 40px; }
-
+  margin-bottom: 40px;
+}
 .messages > .liuyanban {
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 50px; }
-
+  margin-bottom: 50px;
+}
 .messages > .liuyanban:hover {
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2); }
-
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.2);
+}
 .message-form {
   max-width: 940px;
   padding: 50px 20px;
-  background-color: #fffffd; }
+  background-color: rgb(255, 255, 253);
+}
 
 #postMessageForm {
   max-width: 800px;
@@ -25,14 +25,14 @@
   color: #4d4b4b;
   display: flex;
   justify-content: center;
-  align-items: center; }
-
+  align-items: center;
+}
 .form-tips {
-  font-size: 20px; }
-
+  font-size: 20px;
+}
 #postMessageForm > div {
-  margin: 0 6px; }
-
+  margin: 0 6px;
+}
 #postMessageForm > div > input {
   /* 去除默认样式 */
   -web-kit-appearance: none;
@@ -46,45 +46,48 @@
   color: #6a6f77;
   /* 将input输入框的轮廓去掉： */
   /* outline: 0; */
-  outline-color: #336488; }
+  outline-color: rgb(51, 100, 136);
+}
 
 .input_submit > #inputSubmit {
-  background-color: #367099;
-  color: #fffdfd; }
-
+  background-color: rgb(54, 112, 153);
+  color: rgb(255, 253, 253);
+}
 .input_submit:hover {
   box-shadow: 0px 1px 1px 1px rgba(44, 44, 44, 0.1);
-  background-color: #fffdfd;
+  background-color: rgb(255, 253, 253);
   border-radius: 4px;
-  opacity: 0.8; }
+  opacity: 0.8;
+}
 
 .messageStyle {
   /* border-bottom: 2px rgba(128, 128, 128, 0.5) solid; */
   border-bottom: 1px #e6686a solid;
   padding: 20px 5px;
-  display: block; }
-
+  display: block;
+}
 .messageName {
   font-size: 18px;
   font-weight: bold;
-  color: #4d4b4b; }
-
+  color: #4d4b4b;
+}
 .messageContent {
   font-size: 16px;
-  color: #767681;
-  padding: 10px 0; }
-
+  color: rgb(118, 118, 129);
+  padding: 10px 0;
+}
 .messageTime {
   font-size: 14px;
-  color: #767681;
+  color: rgb(118, 118, 129);
   padding-left: 600px;
   padding-right: 10px;
-  font-style: italic; }
-
+  font-style: italic;
+}
 #messageList,
 #messageList > ol {
-  background-color: #fffdfd;
-  overflow: hidden; }
-
+  background-color: rgb(255, 253, 253);
+  overflow: hidden;
+}
 #messageList {
-  padding: 30px 0; }
+  padding: 30px 0;
+}

@@ -3,28 +3,31 @@
   height: 100vh;
   background-color: white;
   z-index: 2;
-  position: fixed; }
-
+  position: fixed;
+}
 .circular-1 {
   position: absolute;
-  top: 50vh;
-  left: 50vw;
-  background-color: black; }
-
+  top: (100vh/2);
+  left: (100vw/2);
+  background-color: black;
+}
 .animation-1 {
-  animation: scaleout 2s linear infinite; }
-
+  animation: scaleout 2s linear infinite;
+}
 .animation-2 {
-  animation: scaleout 2s linear infinite 1s; }
-
+  animation: scaleout 2s linear infinite 1s;
+}
 @keyframes scaleout {
   0% {
     width: 0px;
     height: 0px;
     border-radius: 50%;
-    opacity: 1; }
+    opacity: 1;
+  }
   100% {
     width: 50px;
     height: 50px;
     border-radius: 25px;
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
